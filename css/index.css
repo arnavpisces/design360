@@ -65,6 +65,7 @@ h2{
 }
 .lregister:hover{
   background-color:#6300d6;
+  text-decoration: none;
   color:white;
 }
 .landing .clogocontain{
@@ -185,6 +186,62 @@ background-color: white;
   font-size: 110%;
 }
 
+/*IDF LOGO HOVER BUTTON*/
+.idfhover{
+  display: inline-block;
+  position: relative;
+}
+.idfhover:hover .overlay {
+  display: block;
+  background: rgba(76, 67, 255, .1);
+}
+.overlay {
+  position: absolute;
+  margin-top: 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.button {
+  position: absolute;
+  /*width: 500px;*/
+  right: 0;
+  bottom: 0;
+  /*right:1000px;*/
+  /*right: 100%;*/
+  text-align: center;
+  opacity: 0;
+  outline: 0;
+  transition: opacity .35s ease;
+}
+.button a {
+  width: 20px;
+  /*padding: 12px 48px;*/
+  text-align: center;
+  color: #4C43FF;
+  /*background-color: black;*/
+  font-size: 40px;
+  /*border: 0px black;*/
+  outline: 0;
+  text-decoration: none !important;
+
+  z-index: 1;
+}
+.idfhover:hover .button {
+  opacity: 1;
+  text-decoration: none !important;
+  outline: 0;
+}
+.idfhover:hover a{
+  outline: 0;
+  /*border-color: white*/
+}
+
+
 .sponsimages{
   display: inline-block;
   /*padding: 0px 0px 35px 50px;*/
@@ -302,6 +359,7 @@ input[type=submit]:hover {
 }
 .register:hover{
   background-color:#6300d6;
+  text-decoration: none;
   color:white;
 }
 
