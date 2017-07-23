@@ -24,6 +24,9 @@ h2{
   margin-top: 0;
   text-align: center;
 }
+h3{
+  margin-top: 0px !important;
+}
 .landing{
   background: url("../images/back.jpg") no-repeat center center;
   background-attachment: fixed;
@@ -241,6 +244,18 @@ background-color: white;
   /*border-color: white*/
 }
 
+.mentors{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15%;
+}
+.screen{
+  border-radius:2%; 
+}
+
+.mentordetail{
+  line-height: 150% !important;
+}
 
 .sponsimages{
   display: inline-block;
@@ -255,6 +270,7 @@ background-color: white;
   /*margin: 0px 0px 35px 50px;*/
   width: 350px;
 }
+
 
 
 .sponsinterest{
@@ -289,6 +305,10 @@ background-color: white;
   text-align: center;
   display: inline;
   margin-left: 35px;
+}
+
+.col-sm-4 a:hover{
+    text-decoration: none;
 }
 
 input[type=text]{
@@ -491,6 +511,15 @@ input[type=text]{
 	font-weight: 300;
 	opacity: 0.4;
 }
+.team-block h3 a{
+  transition: color 0.3s, opacity 0.3s;
+}
+.team-block h3 a:hover
+{
+  color:#6300d6 !important;
+  text-decoration: none;
+  opacity: 1
+}
 
 .team-block .soc-list {
 	margin-top: 25px;
@@ -510,15 +539,20 @@ input[type=text]{
 
 .row [class^=col-] {
 	padding-bottom: 40px;
+  text-align: center;
 }
 
 .row.no-dev [class^=col-],
  .row [class^=col-sm-] {
 	padding-bottom: 0px;
+  text-align: center;
+
 }
 
 .row [class^=col-]:last-child {
 	padding-bottom: 0;
+  text-align: center;
+
 }
 }
 @media (max-width: 767px) {
