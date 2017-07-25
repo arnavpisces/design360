@@ -56,6 +56,16 @@ h3{
   padding-left: 20px;
 }
 
+.name1{
+  font-size: 150%;
+}
+
+.mentordetail{
+  padding-left: 20px;
+  padding-right: 20px;
+  /*text-align:justify;*/
+}
+
 .lregister {
     /*width: 100%;*/
     text-align: center;
@@ -230,6 +240,7 @@ background-color: white;
   width: 20px;
   /*padding: 12px 48px;*/
   text-align: center;
+  /*padding-left: inherit;*/
   color: #4C43FF;
   /*background-color: black;*/
   font-size: 40px;
