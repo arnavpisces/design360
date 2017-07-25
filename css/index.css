@@ -25,7 +25,7 @@ h2{
   text-align: center;
 }
 h3{
-  margin-top: 0px !important;
+  margin: 0 0 20px 0;
 }
 .landing{
   background: url("../images/back.jpg") no-repeat center center;
@@ -51,6 +51,11 @@ h3{
   margin: auto;
   /*border: 2px solid rgb(44,44,44);*/
 }
+
+.team-block{
+  padding-left: 20px;
+}
+
 .lregister {
     /*width: 100%;*/
     text-align: center;
@@ -247,10 +252,15 @@ background-color: white;
 .mentors{
   max-width: 100%;
   height: auto;
-  border-radius: 15%;
+  border-radius: 2%;
+  width: 100%;
+
 }
 .screen{
   border-radius:2%; 
+  /*height: 70%;*/
+  /*width: 70%;*/
+
 }
 
 .mentordetail{
@@ -524,11 +534,15 @@ input[type=text]{
 .team-block .soc-list {
 	margin-top: 25px;
 }
+.team-block [class^=col-] {
+  /*padding-left: 40px;*/
+  padding-right: 25px;
+}
 @media (min-width: 992px) {
 
 .team-block [class^=col-] {
-	padding-left: 40px;
-	padding-right: 40px;
+	/*padding-left: 40px;*/
+	/*padding-right: 40px;*/
 }
 }
 .container,
@@ -546,6 +560,7 @@ input[type=text]{
  .row [class^=col-sm-] {
 	padding-bottom: 0px;
   text-align: center;
+  display: inline;
 
 }
 
@@ -567,11 +582,6 @@ input[type=text]{
 	background-attachment: scroll !important;
 }
 }
-.screen {
-	max-width: 100%;
-	height: auto;
-}
-
 .screen {
 	max-width: 100%;
 	height: auto;
@@ -607,4 +617,20 @@ img.full-width {
  .container-half-left {
 	display: none;
 }
+.team-block .occupation{
+  font-size: 80%;
+}
+.team-block .name{
+  margin:0px;
+}
+}
+
+@media only screen and (max-width:766px){
+  .screen{
+    width: 45%;
+  }
+  .team-block{
+    padding: 0px;
+  }
+
 }
