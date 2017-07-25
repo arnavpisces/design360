@@ -60,11 +60,7 @@ h3{
   font-size: 150%;
 }
 
-.mentordetail{
-  padding-left: 20px;
-  padding-right: 20px;
-  /*text-align:justify;*/
-}
+
 
 .lregister {
     /*width: 100%;*/
@@ -643,5 +639,10 @@ img.full-width {
   .team-block{
     padding: 0px;
   }
+  .mentordetail{
+  padding-left: 20px;
+  padding-right: 20px;
+  /*text-align:justify;*/
+}
 
 }
