@@ -413,9 +413,14 @@ input[type=submit]:hover {
 }
 .flaticon-twitter-logo-silhouette:before{
   color:#1dcaff;
+  transition: color 0.2s;
+  
 }
 
 .endregister  a:hover i:before{
+  color:#6300d6;
+}
+.container  a:hover i:before{
   color:#6300d6;
 }
 
