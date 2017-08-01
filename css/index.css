@@ -402,17 +402,17 @@ input[type=submit]:hover {
 
 .flaticon-facebook-logo:before{
   font-size:5em !important;
-  color:#3979FD;
+  color:#2f68eb;
   transition: color 0.2s;
   /*background-color: purple;*/
 }
 
 .flaticon-linkedin-logo:before{
-  color:#0077B5;
+  color:#2f68eb;
   transition: color 0.2s;
 }
 .flaticon-twitter-logo-silhouette:before{
-  color:#1dcaff;
+  color:#2f68eb;
   transition: color 0.2s;
 
 }
