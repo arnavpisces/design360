@@ -245,12 +245,19 @@ background-color: white;
   margin-top: 0;
 }
 
-#schedule p{
+#schedule .time{
   max-width: 1000px;
-  margin: auto;
+  margin:0;
   color: rgba(0, 0, 0, 0.6);
   line-height: 200%;
-  font-size: 110%;
+  font-size: 115%;
+}
+#schedule .event{
+  max-width: 1000px;
+  margin-top:10px !important;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 200%;
+  font-size: 115%;
 }
 
 .day .time {
@@ -258,8 +265,8 @@ background-color: white;
   color: #262626;
   font-family: 'Poppins', sans-serif !important;
   float: left;
-  font-size: 180%;
-  font-weight: bolder;
+  font-size: 160% !important;
+  font-weight: bolder ;
   letter-spacing: -2px;
   margin: 7px 15px 0 5px;
 }
@@ -537,6 +544,23 @@ input[type=text]{
   font-size: 200%;
 }
 }
+@media only screen and (max-width: 480px) {
+  #schedule .day {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .day .time {
+    font-size: 150%;
+    margin: 8px 12px 0 4px;
+  }
+
+  .day .event {
+    font-size: 90%;
+    letter-spacing: -1px;
+  }
+}
 @media only screen and (max-width:590px){
   
   .sponsinterest h2{
@@ -563,23 +587,7 @@ input[type=text]{
   width: 70px;
 }
   }
-  @media (max-width: 480px) {
-  #schedule .day {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 30px;
-  }
-
-  .day .time {
-    font-size: 150%;
-    margin: 8px 12px 0 4px;
-  }
-
-  .day .event {
-    font-size: 90%;
-    letter-spacing: -1px;
-  }
-}
+  
   @media only screen and (max-width:414px){
     input[type=text]{
   border:none;
@@ -619,6 +627,7 @@ input[type=text]{
   /*background-color: purple;*/
 }
   }
+
   @media only screen and (max-width: 801px){
     .endregister h2{
        /*font-size: 20px;*/
