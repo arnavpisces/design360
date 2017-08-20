@@ -182,6 +182,59 @@ footer{
 background-color: white;
 }
 
+#schedule {
+  margin: 0;
+  padding: 50px 20px 50px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+#schedule h2 {
+  color: white;
+  font-size: 250%;
+  margin-top: 0;
+}
+
+.schedule-div {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schedule .day {
+  width: 350px;
+  display: inline-block;
+  margin: 30px;
+}
+
+#schedule .day h6 {
+  color: black;
+  font-size: 120%;
+  margin: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+#schedule .day .list-div {
+  text-align: left;
+}
+
+#schedule .list-item {
+  border-left: solid #7a18ab 5px;
+  padding: 5px;
+  padding-left: 4px;
+  margin: 15px 0 15px 0;
+  background-color: rgba(47,104,235,0.15);
+}
+
+#schedule .list-item:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 #schedule #head{
   padding-top: 50px;
   text-align: center;
@@ -198,6 +251,34 @@ background-color: white;
   color: rgba(0, 0, 0, 0.6);
   line-height: 200%;
   font-size: 110%;
+}
+
+.day .time {
+  text-transform: uppercase;
+  color: #262626;
+  font-family: 'Poppins', sans-serif !important;
+  float: left;
+  font-size: 180%;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  margin: 7px 15px 0 5px;
+}
+
+sub {
+  vertical-align: baseline;
+  position: relative;
+  font-family: 'Poppins', sans-serif !important;
+  top: 0px;
+}
+
+.day .event {
+  float: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.extra {
+  color: white;
+  font-size: 105%;
 }
 
 /*IDF LOGO HOVER BUTTON*/
@@ -482,6 +563,23 @@ input[type=text]{
   width: 70px;
 }
   }
+  @media (max-width: 480px) {
+  #schedule .day {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .day .time {
+    font-size: 150%;
+    margin: 8px 12px 0 4px;
+  }
+
+  .day .event {
+    font-size: 90%;
+    letter-spacing: -1px;
+  }
+}
   @media only screen and (max-width:414px){
     input[type=text]{
   border:none;
